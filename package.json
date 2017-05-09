@@ -1,0 +1,20 @@
+{
+  "name": "trustproxy",
+  "description": "trustproxy setting for express.js",
+  "version": "0.0.0",
+  "author": "José F. Romaniello <jfromaniello@gmail.com> (http://joseoncode.com)",
+  "repository": {
+    "url": "git://github.com/jfromaniello/trustproxy.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "proxy-addr": "^1.1.4"
+  },
+  "devDependencies": {
+    "chai": "~2.3.0",
+    "mocha": "~2.2.5"
+  }
+}
