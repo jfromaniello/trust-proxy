@@ -8,7 +8,7 @@ The current documentation of express.js states that you can configure the `trust
 app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']);
 ```
 
-But this doesn't work if you run your application non an unix socket.
+But this doesn't work if you run your application on a unix socket.
 
 Use this library as follows:
 
