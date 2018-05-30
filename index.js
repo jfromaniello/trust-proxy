@@ -10,3 +10,13 @@ module.exports = function(config) {
     return validator(ip);
   };
 };
+
+module.exports.validate = function(config) {
+  try{
+    proxyAddr.compile(config);
+    return true;
+  }
+  catch (err) {
+    return false;
+  }
+};
